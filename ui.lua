@@ -130,11 +130,7 @@ function library:New(opts)
     local fonted = options.font or Enum.Font.Ubuntu
     local consoleEnabled = options.console
     local chatEnabled = options.chat
-
-    if options.log and options.logURL then
-        custom.debug(options.logURL)
-    end
-
+    
     local holder =
         custom.createObject(
         "Frame",
