@@ -860,7 +860,7 @@ function library:New(opts)
                         ZIndex = 6,
                         Size = UDim2.new(0, 1, 0, 16),
                         BackgroundTransparency = 1,
-                        Position = UDim2.new(0.5, -10, 0, 4),
+                        Position = UDim2.new(0.5, 0, 0, 4),
                         BackgroundColor3 = Color3.fromRGB(255, 255, 255),
                         FontSize = Enum.FontSize.Size12,
                         TextSize = 12,
